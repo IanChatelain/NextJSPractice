@@ -1,6 +1,7 @@
 import "./globals.css";
 
 import MainHeader from "@/components/main-header/main-header";
+import MainFooter from "@/components/main-footer/main-footer";
 
 export const metadata = {
   title: "Login Vertical Slice",
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <MainHeader />
         {children}
+        <MainFooter />
       </body>
     </html>
   );
